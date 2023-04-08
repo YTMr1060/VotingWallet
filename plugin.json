@@ -1,0 +1,15 @@
+{
+    "id": "votingwallet",
+    "name": "Voting Wallet",
+    "description": "Shop money compensation for votes",
+    "version": "1.0.0",
+    "url": "https://www.idlemc.fr",
+    "authors": [
+        "BrandonDEV"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Votingwallet\\Providers\\VotingwalletServiceProvider",
+        "\\Azuriom\\Plugin\\Votingwallet\\Providers\\RouteServiceProvider"
+    ]
+}
